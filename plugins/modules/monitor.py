@@ -541,6 +541,7 @@ def main():
         gamedigGivenPortOnly=dict(type="bool"),
         jsonPath=dict(type="str"),
         expectedValue=dict(type="str"),
+        jsonPathOperator=dict(type="str"),
         kafkaProducerBrokers=dict(type="str"),
         kafkaProducerTopic=dict(type="str"),
         kafkaProducerMessage=dict(type="str"),
